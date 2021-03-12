@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Row } from "react-bootstrap";
 
 const StyledContainer = styled.div`
   display: flex;
@@ -8,8 +9,6 @@ const StyledContainer = styled.div`
 `;
 
 const StyledTitle = styled.div`
-  margin: auto;
-
   color: #b4ceff;
   text-shadow: -0.0075em 0.0075em 0 #e6f3ff, 0.005em 0.005em 0 #80b0ff,
     0.01em 0.01em 0 #85b3ff, 0.015em 0.015em #87b4ff, 0.02em 0.02em 0 #8cb6ff,
@@ -22,10 +21,26 @@ const StyledTitle = styled.div`
   font-size: calc(1em + 8vw);
 `;
 
+const StyledSubTitle = styled.div`
+  color: #80b0ff;
+
+  font-size: calc(1em + 1vw);
+  font-family: tomarik-display, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+`;
+
 const Landing = () => {
   return (
     <StyledContainer>
-      <StyledTitle>Pass the Mic!</StyledTitle>
+      <div className="m-auto">
+        <Row className="mx-auto justify-content-center">
+          <StyledTitle>Pass the Mic!</StyledTitle>
+        </Row>
+        <Row className="mx-auto justify-content-end">
+          <StyledSubTitle>A WYBC Podcast</StyledSubTitle>
+        </Row>
+      </div>
     </StyledContainer>
   );
 };
