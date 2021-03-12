@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 
 const StyledContainer = styled.div`
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 56px);
   min-width: 100vw;
 `;
 
@@ -15,17 +15,18 @@ const StyledTitle = styled.div`
     0.025em 0.025em 0 #90b9ff, 0.03em 0.03em 0 #95bbff,
     0.035em 0.035em 0 #99beff;
 
-  font-family: tomarik-display, sans-serif;
+  font-family: tomarik-display-line, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: calc(1em + 8vw);
+  font-size: calc(1em + 7vw);
+  text-align: center;
 `;
 
 const StyledSubTitle = styled.div`
   color: #80b0ff;
 
   font-size: calc(1em + 1vw);
-  font-family: tomarik-display, sans-serif;
+  font-family: tomarik-display-line, sans-serif;
   font-weight: 400;
   font-style: italic;
 `;
@@ -33,11 +34,11 @@ const StyledSubTitle = styled.div`
 const Landing = () => {
   return (
     <StyledContainer>
-      <div className="m-auto">
+      <div className="m-auto p-2">
         <Row className="mx-auto justify-content-center">
           <StyledTitle>Pass the Mic!</StyledTitle>
         </Row>
-        <Row className="mx-auto justify-content-end">
+        <Row className="mx-auto justify-content-end mb-5">
           <StyledSubTitle>A WYBC Podcast</StyledSubTitle>
         </Row>
       </div>
