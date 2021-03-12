@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 
 const StyledContainer = styled.div`
   display: flex;
-  min-height: calc(100vh - 56px);
+  min-height: calc(100vh - 76px);
   min-width: 100vw;
 `;
 

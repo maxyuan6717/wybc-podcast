@@ -5,16 +5,24 @@ import { GoLocation } from "react-icons/go";
 import { GiMicrophone } from "react-icons/gi";
 import { IoMailOutline, IoNewspaperOutline } from "react-icons/io5";
 
-const StyledNavLink = styled(Nav.Link)`
+const StyledNavLink = styled.a`
   display: flex;
-  padding: 5px;
+  padding: 15px;
   margin-right: 20px;
   font-size: 20px;
+
+  color: #636363;
+  transition: color 0.1s;
+
+  &:hover {
+    color: #363636;
+    text-decoration: none;
+  }
 `;
 
 const CustomNavbar = () => {
   return (
-    <Navbar expand="md">
+    <Navbar expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">
