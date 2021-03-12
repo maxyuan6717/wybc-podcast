@@ -42,7 +42,7 @@ const CustomNavbar = () => {
               className="my-auto mr-1"
               style={{ display: "inline-blok" }}
             />
-            Season 1 Coming Soon
+            Coming Soon
           </StyledNavLink>
           <StyledNavLink href="mailto:pod@wybc.com">
             <IoMailOutline
