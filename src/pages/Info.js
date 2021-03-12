@@ -7,7 +7,6 @@ const StyledContainer = styled.div`
   min-height: 100vh;
   min-width: 100vw;
   padding: 20px 4vw;
-  color: #363636 !important;
 `;
 
 const StyledTitle = styled.div`

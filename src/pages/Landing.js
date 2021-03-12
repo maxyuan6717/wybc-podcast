@@ -9,11 +9,11 @@ const StyledContainer = styled.div`
 `;
 
 const StyledTitle = styled.div`
-  color: #b4ceff;
-  text-shadow: -0.0075em 0.0075em 0 #e6f3ff, 0.005em 0.005em 0 #80b0ff,
-    0.01em 0.01em 0 #85b3ff, 0.015em 0.015em #87b4ff, 0.02em 0.02em 0 #8cb6ff,
-    0.025em 0.025em 0 #90b9ff, 0.03em 0.03em 0 #95bbff,
-    0.035em 0.035em 0 #99beff;
+  color: #e3837a;
+  text-shadow: -0.0075em 0.0075em 0 #c73030, 0.005em 0.005em 0 #eebbb8,
+    0.01em 0.01em 0 #f0c3c0, 0.015em 0.015em #f2cbc8, 0.02em 0.02em 0 #f3d2d0,
+    0.025em 0.025em 0 #f5d9d7, 0.03em 0.03em 0 #f7e0de,
+    0.035em 0.035em 0 #f8e6e5;
 
   font-family: tomarik-display-line, sans-serif;
   font-weight: 400;
@@ -23,7 +23,7 @@ const StyledTitle = styled.div`
 `;
 
 const StyledSubTitle = styled.div`
-  color: #80b0ff;
+  color: #eebbb8;
 
   font-size: calc(1em + 1vw);
   font-family: tomarik-display-line, sans-serif;
@@ -47,3 +47,9 @@ const Landing = () => {
 };
 
 export default Landing;
+
+// color: #b4ceff;
+// text-shadow: -0.0075em 0.0075em 0 #e6f3ff, 0.005em 0.005em 0 #80b0ff,
+//   0.01em 0.01em 0 #85b3ff, 0.015em 0.015em #87b4ff, 0.02em 0.02em 0 #8cb6ff,
+//   0.025em 0.025em 0 #90b9ff, 0.03em 0.03em 0 #95bbff,
+//   0.035em 0.035em 0 #99beff;

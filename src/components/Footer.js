@@ -5,7 +5,8 @@ import { Row } from "react-bootstrap";
 const StyledText = styled.div`
   font-size: 25px;
   margin: 20px;
-  opacity: 40%;
+  opacity: 60%;
+  text-align: center;
 `;
 
 const Footer = () => {

@@ -11,11 +11,11 @@ const StyledNavLink = styled.a`
   margin-right: 20px;
   font-size: 20px;
 
-  color: #636363;
+  color: #fff3d9;
   transition: color 0.1s;
 
   &:hover {
-    color: #363636;
+    color: #ffe9ba;
     text-decoration: none;
   }
 `;
