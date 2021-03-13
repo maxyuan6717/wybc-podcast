@@ -15,10 +15,9 @@ const StyledTitle = styled.div`
     0.025em 0.025em 0 #f5d9d7, 0.03em 0.03em 0 #f7e0de,
     0.035em 0.035em 0 #f8e6e5;
 
-  font-family: tomarik-display-line, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
-  font-size: calc(1em + 7vw);
+  font-size: calc(1em + 10vw);
   text-align: center;
 `;
 
@@ -26,8 +25,6 @@ const StyledSubTitle = styled.div`
   color: #eebbb8;
 
   font-size: calc(1em + 1vw);
-  font-family: tomarik-display-line, sans-serif;
-  font-weight: 400;
   font-style: italic;
 `;
 
